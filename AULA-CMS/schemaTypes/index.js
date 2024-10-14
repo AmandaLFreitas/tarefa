@@ -1,3 +1,3 @@
-import { testeType } from "./testeType"
+import { amanda } from "./amanda"
 
-export const schemaTypes = [testeType]
+export const schemaTypes = [amanda]
