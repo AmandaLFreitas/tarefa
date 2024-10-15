@@ -1,8 +1,8 @@
 import {defineField, defineType} from 'sanity'
 
 export const luanType = defineType({
-  name: 'event',
-  title: 'Event',
+  name: 'event_luan',
+  title: 'Event (Luan)',
   type: 'document',
   fields: [
     defineField({
