@@ -1,30 +1,34 @@
 import {defineField, defineType} from 'sanity'
 
-export const carlosType = defineType({
-  name: 'event_carlos',
-  title: 'Event (Carlos)',
+export const joaoType = defineType({
+  name: 'event_joao',
+  title: 'Event (João)',
   type: 'document',
   fields: [
     defineField({
       name: 'name',
-      title: 'nome',
+      title: 'NOME',
       type: 'string',
     }),
     defineField({
+        name: 'lastname',
+        title: 'SOBRENOME',
+        type: 'string',
+      }),
+    defineField({
+        name: 'age',
+        title: 'IDADE',
+        type: 'number',
+      }),
+      defineField({
         name: 'CPF',
         title: 'CPF',
         type: 'string',
       }),
-      defineField({
-        name: 'age',
-        title: 'idade',
-        type: 'number',
-      }),
-      defineField({
+    defineField({
         name: 'photo',
-        title: 'fotp',
+        title: 'FOTO',
         type: 'image',
       }),
-
   ],
 })
