@@ -18,5 +18,10 @@ export const sobreCasasAbrigoType = defineType({
                 { type: 'string' }
             ]
         }),
+        defineField({
+            name: 'order',
+            title: 'Prioridade',
+            type: 'number'
+        }),
     ]
 });
